@@ -24,9 +24,11 @@
         "Inter" -->
 
     <!-- Font Awesome Icon add -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
-        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <!-- Tailwind CSS  -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -35,7 +37,7 @@
 <body class="font-[Inter] bg-[#f4f9ff]">
 
     <header class="mt-5 mx-5 md:mt-5 md:mx-20 ">
-        <!-- Navber -->
+        <!-- Navbar Start -->
         <nav class="flex justify-between items-center ">
             <div>
                 <img class="w-[30%] md:w-[40%]" src="assets/logo1.png" alt="This Page logo Flowers">
@@ -53,6 +55,23 @@
                 </div>
             </div>
         </nav>
+        <!-- Navbar End -->
+
+        <!-- Welcome Section Start  -->
+        <section class="flex justify-between mt-50">
+            <div class="w-[39%]">
+                <h2 class="font-[Noto-Serif] text-[3.2rem] font-bold leading-17">
+                    ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h2>
+                <p class="text-gray-500 mt-5">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to
+                    exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+            <div class="w-[55%]">
+                <img class="w-[100%]" src="assets/hero-flower.png" alt="Welcome Flower">
+            </div>
+        </section>
+        <!-- Welcome Section End  -->
+
     </header>
 
     <main>
